@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  margin: 0 auto;
+  width: 902px;
+}
+
+form {
+  padding: 30px;
+  border: 1px solid lightgray;
+}
+
+h1 {
+  display: inline-block;
+}
+h2 {
+  font-size: 37px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.input-search {
+  margin: 0px 20px;
+  padding: 10px;
+  border-style: none;
+  background-color: lightgray;
+  width: 30%;
+  border-radius: 6px;
+}
+
+.button {
+  height: 40px;
+  padding: 0px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.register {
+  background-color: rgb(2, 121, 62);
+  border-style: none;
+  color: white;
+}
+
+.login {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.title-subtitle {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-required {
+  border: 1px solid lightgray;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.asterisk {
+  color: red;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.title-form {
+  font-weight: bold;
+  color: rgb(113, 113, 113);
+}
+
+.icon {
+  color: green;
+}
+
+.container-input {
+  margin-top: 20px;
+}
+
+.text-label {
+  font-weight: bold;
+}
+
+.input-style {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  margin-top: 7px;
+  font-size: 17px;
+}
+
+.input-radio {
+  margin-top: 20px;
+}
+
+.container-radio {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
